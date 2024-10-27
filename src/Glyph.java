@@ -1,0 +1,4 @@
+public interface Glyph {
+
+    void render(int x, int y);
+}
