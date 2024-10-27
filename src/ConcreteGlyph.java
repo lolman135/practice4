@@ -1,18 +1,22 @@
 public class ConcreteGlyph {
 
     Glyph glyph;
-    int x;
-    int y;
+    int position;
 
-    public ConcreteGlyph(Glyph glyph, int x, int y) {
+    public ConcreteGlyph(Glyph glyph, int position) {
         this.glyph = glyph;
-        this.x = x;
-        this.y = y;
+        this.position = position;
     }
 
     public void render(){
-        glyph.render(x, y);
+        glyph.render(position);
     }
 
+    public char getSymbol(){
+        return glyph.getSymbol();
+    }
 
+    public int getPosition() {
+        return position;
+    }
 }

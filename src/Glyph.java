@@ -1,4 +1,5 @@
 public interface Glyph {
 
-    void render(int x, int y);
+    void render(int position);
+    char getSymbol();
 }

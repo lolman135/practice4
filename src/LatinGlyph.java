@@ -7,8 +7,12 @@ public class LatinGlyph implements Glyph{
     }
 
     @Override
-    public void render(int x, int y) {
-        System.out.println("Rendering glyph " + symbol + " at position (" + x + ";" + y + ")");
+    public void render(int position) {
+        System.out.println("Rendering glyph " + symbol + " at position " + position + ";");
     }
 
+    @Override
+    public char getSymbol() {
+        return symbol;
+    }
 }
