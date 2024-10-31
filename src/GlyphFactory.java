@@ -5,6 +5,7 @@ import java.util.Map;
  * The {@code GlyphFactory} class provides a factory method to retrieve shared {@link Glyph} instances.
  * <p>Manages a cache of glyphs to minimize memory usage by reusing existing {@code Glyph} objects for
  * identical symbols.
+ * @author Kyrylo Kusovskyi
  */
 public class GlyphFactory {
 

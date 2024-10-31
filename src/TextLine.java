@@ -6,6 +6,7 @@ import java.util.List;
  * The {@code TextLine} class represents a line of text composed of {@link ConcreteGlyph} objects,
  * where each glyph has a specific position. Provides methods to add glyphs to the line and print
  * the line, rendering glyphs at their designated positions.
+ * @author Kyrylo Kusovskyi
  */
 public class TextLine {
 

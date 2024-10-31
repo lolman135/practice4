@@ -1,6 +1,7 @@
 /**
  * The {@code Glyph} interface represents a graphical symbol that can be rendered
  * at a specific position and has a character symbol representation.
+ * @author Kyrylo Kusovskyi
  */
 public interface Glyph {
 

@@ -1,6 +1,7 @@
 /**
  * The {@code Main} class demonstrates the usage of {@link TextLine} by creating a line of text,
  * adding glyphs at specific positions, and printing the result.
+ * @author Kyrylo Kusovskyi
  */
 public class Main {
 

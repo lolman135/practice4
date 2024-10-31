@@ -1,6 +1,7 @@
 /**
  * The {@code ConcreteGlyph} class represents a specific instance of a {@link Glyph} at a given position.
  * <p>Provides methods to render the glyph and retrieve its symbol and position.
+ * @author Kyrylo Kusovskyi
  */
 public class ConcreteGlyph {
 
